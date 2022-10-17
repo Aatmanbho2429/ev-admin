@@ -1,0 +1,59 @@
+.userRead {
+  height: 70vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+
+        #emailCharNeti {
+          margin-left: 120px;
+        }
+
+        #WalletCharNeti {
+          margin-left: 113px;
+        }
+        input#ImageCharNeti {
+          margin-left: 113px;
+        }
+        input#KYCCharNeti {
+          margin-left: 130px;
+        }
+      }
+    }
+  }
+}
+.userEdit {
+  height: 70vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        #email1CharNeti {
+          margin-left: 120px;
+        }
+
+        #Wallet1CharNeti {
+          margin-left: 113px;
+        }
+        input#Image1CharNeti {
+          margin-left: 113px;
+        }
+        input#KYC1CharNeti {
+          margin-left: 130px;
+        }
+      }
+    }
+  }
+}

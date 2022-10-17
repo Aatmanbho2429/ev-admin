@@ -1,0 +1,42 @@
+.modelRead {
+  height: 68vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      input {
+        margin-left: 7rem;
+        margin-top: 2rem;
+      }
+      input#Model1model {
+        margin-left: 51px;
+      }
+      input#Yearmodel {
+        margin-left: 82px;
+    }
+    }
+  }
+}
+.modelEdit {
+  height: 68vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      input {
+        margin-left: 7rem;
+        margin-top: 2rem;
+      }
+      input#Model1model {
+        margin-left: 51px;
+      }
+      input#Year1model {
+        margin-left: 66px;
+      }
+    }
+  }
+}

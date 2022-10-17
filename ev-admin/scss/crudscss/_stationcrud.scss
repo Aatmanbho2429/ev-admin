@@ -1,0 +1,59 @@
+.stationRead {
+  height: 90vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Namestat {
+          margin-left: 106px;
+        }
+        input#CloseTimestat {
+          margin-left: 62px;
+        }
+        input#Pricestat {
+          margin-left: 114px;
+        }
+        input#StationImagestat {
+          margin-left: 38px;
+        }
+      }
+    }
+  }
+}
+.stationEdit {
+  height: 90vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Name1stat {
+          margin-left: 106px;
+        }
+        input#CloseTime1stat {
+          margin-left: 62px;
+        }
+        input#Price1stat {
+          margin-left: 114px;
+        }
+        input#StationImage1stat {
+          margin-left: 38px;
+        }
+      }
+      .OpenTime {
+        margin-right: 123px;
+      }
+    }
+  }
+}

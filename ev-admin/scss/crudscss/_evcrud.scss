@@ -1,0 +1,50 @@
+.evRead {
+  height: 72% !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#ModelEv {
+          margin-left: 110px;
+        }
+        input#CarTypeEv {
+          margin-left: 84px;
+        }
+        input#VinEv {
+          margin-left: 134px;
+        }
+      }
+    }
+  }
+}
+.evEdit {
+  height: 72% !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Model1Ev {
+          margin-left: 110px;
+        }
+        input#CarType1Ev {
+          margin-left: 86px;
+        }
+        input#Vin1Ev {
+          margin-left: 134px;
+        }
+      }
+    }
+  }
+}

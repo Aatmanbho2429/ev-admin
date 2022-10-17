@@ -1,0 +1,35 @@
+.oemRead {
+   height: 53vh !important;
+   transform: translate(27rem, -500rem);
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        display: flex;
+        input {
+          margin-left: 7rem;
+        }
+      }
+    }
+  }
+}
+.oemEdit {
+  height: 53vh !important;
+  transform: translate(27rem, -500rem);
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.charHistoryRead {
+  height: 70vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        #datecharHistory {
+          margin-left: 165px;
+        }
+
+        #amountcharHistory {
+          margin-left: 135px;
+        }
+
+        #nameWatchcharHistory {
+          margin-left: 152px;
+        }
+      }
+    }
+  }
+}
+.charHistoryEdit {
+  height: 70vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        #date1charHistory {
+          margin-left: 165px;
+        }
+
+        #amount1charHistory {
+          margin-left: 135px;
+        }
+
+        #nameWatch1charHistory {
+          margin-left: 152px;
+        }
+      }
+      .time {
+        margin-right: 123px;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.walletHistoryRead{
+  height: 60vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Transactionwallet {
+          margin-left: 18px;
+        }
+        input#Namewallet {
+          margin-left: 141px;
+        }
+        input#Datewallet {
+            margin-left: 149px;
+        }
+      }
+    }
+  }
+}
+.walletHistoryEdit {
+  height: 60vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Transaction1wallet {
+          margin-left: 18px;
+        }
+        input#Name1wallet {
+          margin-left: 141px;
+        }
+        input#Date1wallet {
+            margin-left: 149px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+@import ".././variables";
+
+.amenitiesRead {
+  position: absolute;
+  z-index: 92345876;
+  width: 60%;
+  height: 73vh;
+  background-color: $pure;
+  transform: translate(26rem, -147rem);
+  transition: $smoothing;
+  .watchDataForm {
+    div {
+      margin-top: 2rem;
+      label {
+        font-size: 1.9rem;
+        text-transform: capitalize;
+        font-weight: bolder;
+      }
+      .ametiLable {
+        font-size: 1.9rem;
+        text-transform: capitalize;
+        font-weight: bolder;
+        width: 54rem;
+      }
+      input {
+        font-size: 1.5rem !important;
+        margin-left: 12rem;
+        padding-left: 3rem;
+      }
+      textarea {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+      }
+      &::placeholder {
+        font-size: 1.5rem;
+      }
+    }
+    #okBtn {
+      background-color: $primary;
+      border: none;
+      font-size: 1.7rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      margin-top: 5rem;
+      width: 13rem;
+      height: 4rem;
+      border-radius: 3rem;
+      text-align: center;
+      padding-top: 7px;
+      margin-left: 22rem !important;
+      cursor: pointer;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
+.amenitiesEdit {
+  position: absolute;
+  z-index: 92345876;
+  width: 65%;
+  height: 83vh;
+  background-color: $pure;
+  transform: translate(26rem, -147rem);
+  transition: $smoothing;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    div {
+      margin-top: 2rem;
+      label {
+        font-size: 1.9rem;
+        text-transform: capitalize;
+        font-weight: bolder;
+      }
+      .ametiLable {
+        text-transform: capitalize;
+        font-weight: bolder;
+        width: 54rem;
+      }
+      input {
+        font-size: 1.5rem !important;
+        margin-left: 12rem;
+        padding-left: 3rem;
+      }
+      textarea {
+        font-size: 1.5rem;
+        padding-left: 3rem;
+      }
+      &::placeholder {
+        font-size: 1.5rem;
+      }
+    }
+    #submit {
+      background-color: $primary;
+      border: none;
+      font-size: 1.7rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      margin-top: 10rem;
+      width: 13rem;
+      height: 4rem;
+      border-radius: 3rem;
+      text-align: center;
+      margin-left: 22rem !important;
+      cursor: pointer;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}

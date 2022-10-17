@@ -1,0 +1,44 @@
+.offerRead {
+  height: 62% !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Nameoff {
+          margin-left: 127px;
+        }
+        input#Expiry {
+          margin-left: 77px;
+        }
+      }
+    }
+  }
+}
+.offerEdit {
+  height: 62% !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Name1off {
+          margin-left: 127px;
+        }
+        input#Expiry1 {
+          margin-left: 77px;
+        }
+      }
+    }
+  }
+}

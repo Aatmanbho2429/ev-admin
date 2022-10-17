@@ -1,0 +1,47 @@
+.logRead {
+  height: 73vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Typelog {
+          margin-left: 78px;
+        }
+        input#Datelog {
+          margin-left: 84px;
+        }
+      }
+    }
+  }
+}
+.logEdit {
+  height: 73vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Type1log {
+          margin-left: 78px;
+        }
+        input#Date1log {
+          margin-left: 84px;
+        }
+      }
+      .Time {
+        margin-right: 123px;
+      }
+    }
+  }
+}

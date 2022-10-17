@@ -1,0 +1,63 @@
+@import "variables";
+
+.main {
+  height: 87vh;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  scrollbar-width: none;
+  .wrapper {
+    .gridContainer {
+        padding-bottom: 7rem;
+      .row {
+        margin-top: 4rem;
+        div {
+          cursor: pointer;
+          background-color: $primary;
+          margin-left: 3rem;
+          width: 19.5rem;
+          height: 13.5rem;
+          border-radius: 1rem;
+          box-shadow: 0 5px 8px -3px #262626;
+          padding-left: 2rem;
+          h6{
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-style: normal;
+            font-size: 2.2rem;
+            color: $secondory;
+            margin-top: 1rem;
+          }
+          span{
+              display: inline-block;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 45px;
+            color: #5F5F5F;
+            margin-top: 1.5rem;
+          }
+        }
+        .item3 {
+          width: 31rem;
+          height: 13.5rem;
+        }
+        .item8 {
+          width: 32.5rem;
+          height: 13.5rem;
+        }
+        .item11 {
+          width: 27.2rem;
+          height: 13.5rem;
+        }
+        .item12 {
+          width: 27.2rem;
+          height: 13.5rem;
+        }
+      }
+    }
+  }
+}

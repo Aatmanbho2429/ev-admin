@@ -1,0 +1,102 @@
+#deletebox {
+  position: relative;
+  width: 50%;
+  height: 25vh;
+  background-color: #f0eeed;
+  transform: translate(352px, -2044px);
+  transition: $smoothing;
+  z-index: 92345876;
+  padding-top: 1rem;
+  box-shadow: 0px 4px 4px rgba(5, 5, 5, 0.5);
+  border-radius: 1rem;
+  svg {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  #confirmBox {
+    width: 100%;
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    p {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .btns {
+      position: absolute;
+      bottom: 0;
+      border-top: 1px solid #929191;
+      display: flex;
+      width: 100%;
+      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      #cancleButton {
+        background-color: #f0eeed;
+        width: 50%;
+        color: #262626;
+        bottom: 0;
+        height: 5rem;
+        font-size: 2rem;
+        flex: 1;
+        border-bottom-left-radius: 1rem;
+      }
+      #deleteBtn {
+        background-color: $danger;
+        width: 50%;
+        color: $pure;
+        height: 5rem;
+        font-size: 2rem;
+        flex: 1;
+        border-bottom-right-radius: 1rem;
+        transition: $smoothing;
+        &:hover {
+          background-color: #d3555c;
+        }
+      }
+    }
+  }
+}
+
+#watchbox {
+  border-radius: 1rem;
+  svg {
+    cursor: pointer;
+  }
+  .watchDataForm {
+    div {
+      margin-top: 2rem;
+      input{
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+      }
+    }
+    #okBtn {
+      transition: $smoothing;
+      &:hover {
+        background-color: #fddb0188;
+      }
+    }
+  }
+}
+#editbox {
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.watchDataForm {
+  div {
+    svg {
+      margin-top: 2rem;
+    }
+    button {
+      transition: $smoothing;
+      &:hover {
+        background-color: #fddb0188;
+      }
+    }
+  }
+}

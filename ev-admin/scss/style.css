@@ -1,0 +1,1775 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
+header {
+  background-color: #FDDA01;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  height: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+header #icon img {
+  width: 5rem;
+  height: 5.8rem;
+}
+
+header #userImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #userImage img {
+  width: 6rem;
+  height: 6rem;
+}
+
+header #userImage span {
+  text-transform: capitalize;
+  margin-left: 0.4rem;
+  margin-right: 1.5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 27px;
+  color: #5F5F5F;
+}
+
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div #sidebar {
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: translate(-273px, 0px);
+          transform: translate(-273px, 0px);
+  scrollbar-width: 0px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  width: 20%;
+  background-color: #5F5F5F;
+  color: #fff;
+  height: 87vh;
+  overflow: scroll;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+  scrollbar-width: none;
+}
+
+.div #sidebar::-webkit-scrollbar {
+  width: 0px;
+}
+
+.div #sidebar ul li {
+  border-bottom: 1px solid #fff;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.div #sidebar ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+}
+
+.div #sidebar ul li a:hover {
+  color: #FDDA01;
+}
+
+.div #sidebar #logoutBtn {
+  background-color: #FDDA01;
+  width: 13rem;
+  border: none;
+  color: #5F5F5F;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  margin-top: 7rem;
+  margin-bottom: 1.2rem;
+  border-radius: 0.8rem;
+  margin-left: 18%;
+  margin-top: 8rem;
+  -webkit-box-shadow: 0 5px 8px -3px #262626;
+          box-shadow: 0 5px 8px -3px #262626;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.div #sidebar #logoutBtn:hover {
+  background-color: #fddb01c9;
+}
+
+.div .main {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  padding-bottom: 7rem;
+  padding-left: 5rem;
+  width: 100%;
+}
+
+.div .main .wrapper {
+  width: 95%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.div .main .wrapper .topContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 1.4rem;
+}
+
+.div .main .wrapper .topContent .homeLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div .main .wrapper .topContent .homeLogo span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  color: #5F5F5F;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.div .main .wrapper table,
+.div .main .wrapper th,
+.div .main .wrapper td {
+  font-size: 1.5rem;
+}
+
+.div .main .wrapper table {
+  margin-top: 2rem;
+  width: 100%;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
+}
+
+.div .main .wrapper table thead th {
+  border-right: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
+  font-family: "poppins";
+  text-transform: capitalize;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.div .main .wrapper table thead th:last-child {
+  border-right: none;
+}
+
+.div .main .wrapper table tbody tr:first-child td {
+  padding-top: 2.4rem;
+}
+
+.div .main .wrapper table tbody tr td {
+  text-align: center;
+  border-right: 1px solid #c7c7c7;
+  padding-left: 0.8rem;
+  padding-top: 0.8rem;
+  font-family: "poppins";
+  color: #5F5F5F;
+}
+
+.div .main .wrapper table tbody tr td svg {
+  fill: #5F5F5F;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.div .main .wrapper table tbody tr td svg:hover {
+  fill: black;
+}
+
+.div .main .wrapper table tbody tr td:last-child {
+  border: none;
+}
+
+.div .main .wrapper table tbody tr:last-child td {
+  padding-bottom: 8rem;
+}
+
+#login {
+  background-color: #FDDA01;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#login .containerL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  height: 70vh;
+}
+
+#login .containerL .left img {
+  width: 32rem;
+}
+
+#login .containerL #loginForm {
+  background: #fffbe4;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 46.3rem;
+  height: 43rem;
+}
+
+#login .containerL #loginForm h1 {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  color: #5f5f5f;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#login .containerL #loginForm form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5.5rem;
+  margin-top: 4rem;
+}
+
+#login .containerL #loginForm form div label {
+  width: 12.4rem;
+  height: 3.6rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #5f5f5f;
+}
+
+#login .containerL #loginForm form div input {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 2px rgba(135, 135, 135, 0.25);
+          box-shadow: 0px 2px 2px rgba(135, 135, 135, 0.25);
+  border-radius: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #989898;
+  width: 35.9rem;
+  height: 4.9rem;
+  padding-left: 1rem;
+}
+
+#login .containerL #loginForm form div input::-webkit-input-placeholder {
+  padding-left: 1rem;
+}
+
+#login .containerL #loginForm form div input:-ms-input-placeholder {
+  padding-left: 1rem;
+}
+
+#login .containerL #loginForm form div input::-ms-input-placeholder {
+  padding-left: 1rem;
+}
+
+#login .containerL #loginForm form div input::placeholder {
+  padding-left: 1rem;
+}
+
+#login .containerL #loginForm form #loginBtn {
+  -webkit-filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  background: #5F5F5F;
+  border: 1px solid #5F5F5F;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+  font-family: "Poppins";
+  margin-top: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 27px;
+  color: #FDDA01;
+  width: 35rem;
+  height: 4.9rem;
+  margin-left: 5.5rem;
+  margin-right: 5.9rem;
+  margin-bottom: 8rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#login .containerL #loginForm form #loginBtn:hover {
+  background-color: #474747;
+}
+
+.main {
+  height: 87vh;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.main::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.main .wrapper .gridContainer {
+  padding-bottom: 7rem;
+}
+
+.main .wrapper .gridContainer .row {
+  margin-top: 4rem;
+}
+
+.main .wrapper .gridContainer .row div {
+  cursor: pointer;
+  background-color: #FDDA01;
+  margin-left: 3rem;
+  width: 19.5rem;
+  height: 13.5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 5px 8px -3px #262626;
+          box-shadow: 0 5px 8px -3px #262626;
+  padding-left: 2rem;
+}
+
+.main .wrapper .gridContainer .row div h6 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.2rem;
+  color: #5F5F5F;
+  margin-top: 1rem;
+}
+
+.main .wrapper .gridContainer .row div span {
+  display: inline-block;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #5F5F5F;
+  margin-top: 1.5rem;
+}
+
+.main .wrapper .gridContainer .row .item3 {
+  width: 31rem;
+  height: 13.5rem;
+}
+
+.main .wrapper .gridContainer .row .item8 {
+  width: 32.5rem;
+  height: 13.5rem;
+}
+
+.main .wrapper .gridContainer .row .item11 {
+  width: 27.2rem;
+  height: 13.5rem;
+}
+
+.main .wrapper .gridContainer .row .item12 {
+  width: 27.2rem;
+  height: 13.5rem;
+}
+
+#deletebox {
+  position: relative;
+  width: 50%;
+  height: 25vh;
+  background-color: #f0eeed;
+  -webkit-transform: translate(352px, -2044px);
+          transform: translate(352px, -2044px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 92345876;
+  padding-top: 1rem;
+  -webkit-box-shadow: 0px 4px 4px rgba(5, 5, 5, 0.5);
+          box-shadow: 0px 4px 4px rgba(5, 5, 5, 0.5);
+  border-radius: 1rem;
+}
+
+#deletebox svg {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+#deletebox #confirmBox {
+  width: 100%;
+}
+
+#deletebox #confirmBox h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#deletebox #confirmBox p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#deletebox #confirmBox .btns {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #929191;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+#deletebox #confirmBox .btns #cancleButton {
+  background-color: #f0eeed;
+  width: 50%;
+  color: #262626;
+  bottom: 0;
+  height: 5rem;
+  font-size: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-bottom-left-radius: 1rem;
+}
+
+#deletebox #confirmBox .btns #deleteBtn {
+  background-color: #db1a23;
+  width: 50%;
+  color: #fff;
+  height: 5rem;
+  font-size: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-bottom-right-radius: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: url(delete.php);
+}
+
+#deletebox #confirmBox .btns #deleteBtn:hover {
+  background-color: #d3555c;
+}
+
+#watchbox {
+  border-radius: 1rem;
+}
+
+#watchbox svg {
+  cursor: pointer;
+}
+
+#watchbox .watchDataForm div {
+  margin-top: 2rem;
+}
+
+#watchbox .watchDataForm div input {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#watchbox .watchDataForm #okBtn {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#watchbox .watchDataForm #okBtn:hover {
+  background-color: #fddb0188;
+}
+
+#editbox {
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.watchDataForm div svg {
+  margin-top: 2rem;
+}
+
+.watchDataForm div button {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.watchDataForm div button:hover {
+  background-color: #fddb0188;
+}
+
+.chartBox {
+  width: 400px;
+  background-color: #062d41;
+  padding: 3rem;
+  margin-left: 2rem;
+}
+
+.userChart {
+  margin-top: 2rem;
+  width: 500px;
+}
+
+.permissionBlock {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background-color: #fffbe4 !important;
+  margin-right: 1rem;
+}
+
+.permissionBlock thead {
+  background-color: #f5f5d7;
+}
+
+.permissionBlock thead th {
+  padding: 2 0.5rem;
+}
+
+.permissionBlock tbody tr td {
+  padding: 1rem 0.3rem;
+}
+
+.permissionBlock tbody tr td div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.permissionBlock tbody tr td div input {
+  margin-left: 0.3rem;
+}
+
+.permissionWrap {
+  position: absolute;
+  left: 0;
+  top: 5rem;
+}
+
+.amenitiesRead {
+  position: absolute;
+  z-index: 92345876;
+  width: 60%;
+  height: 73vh;
+  background-color: #fff;
+  -webkit-transform: translate(26rem, -147rem);
+          transform: translate(26rem, -147rem);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.amenitiesRead .watchDataForm div {
+  margin-top: 2rem;
+}
+
+.amenitiesRead .watchDataForm div label {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.amenitiesRead .watchDataForm div .ametiLable {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+  width: 54rem;
+}
+
+.amenitiesRead .watchDataForm div input {
+  font-size: 1.5rem !important;
+  margin-left: 12rem;
+  padding-left: 3rem;
+}
+
+.amenitiesRead .watchDataForm div textarea {
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+
+.amenitiesRead .watchDataForm div::-webkit-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesRead .watchDataForm div:-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesRead .watchDataForm div::-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesRead .watchDataForm div::placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesRead .watchDataForm #okBtn {
+  background-color: #FDDA01;
+  border: none;
+  font-size: 1.7rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 5rem;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 3rem;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 22rem !important;
+  cursor: pointer;
+}
+
+.amenitiesRead svg {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.amenitiesEdit {
+  position: absolute;
+  z-index: 92345876;
+  width: 65%;
+  height: 83vh;
+  background-color: #fff;
+  -webkit-transform: translate(26rem, -147rem);
+          transform: translate(26rem, -147rem);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.amenitiesEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.amenitiesEdit .watchDataForm div {
+  margin-top: 2rem;
+}
+
+.amenitiesEdit .watchDataForm div label {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.amenitiesEdit .watchDataForm div .ametiLable {
+  text-transform: capitalize;
+  font-weight: bolder;
+  width: 54rem;
+}
+
+.amenitiesEdit .watchDataForm div input {
+  font-size: 1.5rem !important;
+  margin-left: 12rem;
+  padding-left: 3rem;
+}
+
+.amenitiesEdit .watchDataForm div textarea {
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+
+.amenitiesEdit .watchDataForm div::-webkit-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesEdit .watchDataForm div:-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesEdit .watchDataForm div::-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesEdit .watchDataForm div::placeholder {
+  font-size: 1.5rem;
+}
+
+.amenitiesEdit .watchDataForm #submit {
+  background-color: #FDDA01;
+  border: none;
+  font-size: 1.7rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 10rem;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 3rem;
+  text-align: center;
+  margin-left: 22rem !important;
+  cursor: pointer;
+}
+
+.amenitiesEdit svg {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.charRead, .chargersRead {
+  position: absolute;
+  z-index: 92345876;
+  width: 80%;
+  height: 73vh;
+  background-color: #fff;
+  -webkit-transform: translate(13rem, -147rem);
+          transform: translate(13rem, -147rem);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.charRead .watchDataForm, .chargersRead .watchDataForm {
+  width: 70%;
+}
+
+.charRead .watchDataForm div, .chargersRead .watchDataForm div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.charRead .watchDataForm div div, .chargersRead .watchDataForm div div {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.charRead .watchDataForm div div label, .chargersRead .watchDataForm div div label {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.charRead .watchDataForm div div .ametiLable, .chargersRead .watchDataForm div div .ametiLable {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+  width: 54rem;
+}
+
+.charRead .watchDataForm div div input, .chargersRead .watchDataForm div div input {
+  font-size: 1.5rem;
+  margin-left: 7rem;
+  padding-left: 3rem;
+  border-bottom: 1px solid grey;
+}
+
+.charRead .watchDataForm div div input#charNocharger, .chargersRead .watchDataForm div div input#charNocharger {
+  margin-left: 26px;
+}
+
+.charRead .watchDataForm div div input#imageWatch2charger, .chargersRead .watchDataForm div div input#imageWatch2charger {
+  margin-left: 55px;
+}
+
+.charRead .watchDataForm div div input#imageWatch4charger, .chargersRead .watchDataForm div div input#imageWatch4charger {
+  margin-left: 54px;
+}
+
+.charRead .watchDataForm div div textarea, .chargersRead .watchDataForm div div textarea {
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+
+.charRead .watchDataForm div div::-webkit-input-placeholder, .chargersRead .watchDataForm div div::-webkit-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.charRead .watchDataForm div div:-ms-input-placeholder, .chargersRead .watchDataForm div div:-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.charRead .watchDataForm div div::-ms-input-placeholder, .chargersRead .watchDataForm div div::-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.charRead .watchDataForm div div::placeholder, .chargersRead .watchDataForm div div::placeholder {
+  font-size: 1.5rem;
+}
+
+.charRead .watchDataForm #okBtn, .chargersRead .watchDataForm #okBtn {
+  background-color: #FDDA01;
+  border: none;
+  font-size: 1.7rem;
+  margin-top: 10rem;
+  width: 13rem;
+  height: 4.3rem;
+  padding-left: 5rem;
+  border-radius: 3rem;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 31rem !important;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 10rem;
+  padding-left: 5.2rem !important;
+  padding-top: 6px !important;
+  text-transform: uppercase !important;
+  margin-left: 35rem !important;
+}
+
+.charRead svg, .chargersRead svg {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.charEdit, .chargersEdit {
+  height: 86vh !important;
+  position: absolute;
+  z-index: 92345876;
+  width: 80%;
+  background-color: #fff;
+  -webkit-transform: translate(13rem, -147rem);
+          transform: translate(13rem, -147rem);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 92345876;
+  width: 80%;
+  height: 90vh;
+  background-color: #fff;
+  transform: translate(13rem, -147rem);
+  transition: all 0.5s;
+}
+
+.charEdit #error, .chargersEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.charEdit .watchDataForm, .chargersEdit .watchDataForm {
+  width: 70%;
+}
+
+.charEdit .watchDataForm div, .chargersEdit .watchDataForm div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.charEdit .watchDataForm div div, .chargersEdit .watchDataForm div div {
+  margin-top: 2rem;
+}
+
+.charEdit .watchDataForm div div label, .chargersEdit .watchDataForm div div label {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.charEdit .watchDataForm div div .ametiLable, .chargersEdit .watchDataForm div div .ametiLable {
+  font-size: 1.9rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+  width: 54rem;
+}
+
+.charEdit .watchDataForm div div input, .chargersEdit .watchDataForm div div input {
+  font-size: 1.5rem;
+  margin-left: 7rem;
+  padding-left: 3rem;
+  border-bottom: 1px solid gray;
+}
+
+.charEdit .watchDataForm div div input#charNo1charger, .chargersEdit .watchDataForm div div input#charNo1charger {
+  margin-left: 26px;
+}
+
+.charEdit .watchDataForm div div input#imageWatch21charger, .chargersEdit .watchDataForm div div input#imageWatch21charger {
+  margin-left: 55px;
+}
+
+.charEdit .watchDataForm div div input#imageWatch41charger, .chargersEdit .watchDataForm div div input#imageWatch41charger {
+  margin-left: 54px;
+}
+
+.charEdit .watchDataForm div div input#imageWatch1charger, .chargersEdit .watchDataForm div div input#imageWatch1charger {
+  margin-left: 55px;
+}
+
+.charEdit .watchDataForm div div textarea, .chargersEdit .watchDataForm div div textarea {
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+
+.charEdit .watchDataForm div div::-webkit-input-placeholder, .chargersEdit .watchDataForm div div::-webkit-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.charEdit .watchDataForm div div:-ms-input-placeholder, .chargersEdit .watchDataForm div div:-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.charEdit .watchDataForm div div::-ms-input-placeholder, .chargersEdit .watchDataForm div div::-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.charEdit .watchDataForm div div::placeholder, .chargersEdit .watchDataForm div div::placeholder {
+  font-size: 1.5rem;
+}
+
+.charEdit .watchDataForm #submit, .chargersEdit .watchDataForm #submit {
+  background-color: #FDDA01;
+  border: none;
+  font-size: 1.7rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 10rem;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 3rem;
+  text-align: center;
+  margin-left: 31rem !important;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 10rem;
+  text-transform: uppercase !important;
+  margin-left: 35rem !important;
+}
+
+.charEdit svg, .chargersEdit svg {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.charHistoryRead {
+  height: 70vh !important;
+}
+
+.charHistoryRead .watchDataForm {
+  width: 80%;
+}
+
+.charHistoryRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.charHistoryRead .watchDataForm div div #datecharHistory {
+  margin-left: 165px;
+}
+
+.charHistoryRead .watchDataForm div div #amountcharHistory {
+  margin-left: 135px;
+}
+
+.charHistoryRead .watchDataForm div div #nameWatchcharHistory {
+  margin-left: 152px;
+}
+
+.charHistoryEdit {
+  height: 70vh !important;
+}
+
+.charHistoryEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.charHistoryEdit .watchDataForm {
+  width: 80%;
+}
+
+.charHistoryEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.charHistoryEdit .watchDataForm div div #date1charHistory {
+  margin-left: 165px;
+}
+
+.charHistoryEdit .watchDataForm div div #amount1charHistory {
+  margin-left: 135px;
+}
+
+.charHistoryEdit .watchDataForm div div #nameWatch1charHistory {
+  margin-left: 152px;
+}
+
+.charHistoryEdit .watchDataForm div .time {
+  margin-right: 123px;
+}
+
+.userRead {
+  height: 70vh !important;
+}
+
+.userRead .watchDataForm {
+  width: 80%;
+}
+
+.userRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.userRead .watchDataForm div div #emailCharNeti {
+  margin-left: 120px;
+}
+
+.userRead .watchDataForm div div #WalletCharNeti {
+  margin-left: 113px;
+}
+
+.userRead .watchDataForm div div input#ImageCharNeti {
+  margin-left: 113px;
+}
+
+.userRead .watchDataForm div div input#KYCCharNeti {
+  margin-left: 130px;
+}
+
+.userEdit {
+  height: 70vh !important;
+}
+
+.userEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.userEdit .watchDataForm {
+  width: 80%;
+}
+
+.userEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.userEdit .watchDataForm div div #email1CharNeti {
+  margin-left: 120px;
+}
+
+.userEdit .watchDataForm div div #Wallet1CharNeti {
+  margin-left: 113px;
+}
+
+.userEdit .watchDataForm div div input#Image1CharNeti {
+  margin-left: 113px;
+}
+
+.userEdit .watchDataForm div div input#KYC1CharNeti {
+  margin-left: 130px;
+}
+
+.evRead {
+  height: 72% !important;
+}
+
+.evRead .watchDataForm {
+  width: 80%;
+}
+
+.evRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.evRead .watchDataForm div div input#ModelEv {
+  margin-left: 110px;
+}
+
+.evRead .watchDataForm div div input#CarTypeEv {
+  margin-left: 84px;
+}
+
+.evRead .watchDataForm div div input#VinEv {
+  margin-left: 134px;
+}
+
+.evEdit {
+  height: 72% !important;
+}
+
+.evEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.evEdit .watchDataForm {
+  width: 80%;
+}
+
+.evEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.evEdit .watchDataForm div div input#Model1Ev {
+  margin-left: 110px;
+}
+
+.evEdit .watchDataForm div div input#CarType1Ev {
+  margin-left: 86px;
+}
+
+.evEdit .watchDataForm div div input#Vin1Ev {
+  margin-left: 134px;
+}
+
+.favRead {
+  height: 73vh !important;
+}
+
+.favRead .watchDataForm {
+  width: 80%;
+}
+
+.favRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.favRead .watchDataForm div div input#NameFav {
+  margin-left: 42px;
+}
+
+.favRead .watchDataForm div div input#Amenities1Fav {
+  margin-left: 11rem;
+}
+
+.favRead .watchDataForm div div input#CloseTime1Fav {
+  margin-left: 109px;
+}
+
+.favRead .watchDataForm div div input#NameFav2 {
+  margin-left: 65px;
+}
+
+.favEdit {
+  height: 73vh !important;
+}
+
+.favEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.favEdit .watchDataForm {
+  width: 80%;
+}
+
+.favEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.favEdit .watchDataForm div div input#Name1Fav {
+  margin-left: 86px;
+}
+
+.favEdit .watchDataForm div div input#uName1Fav {
+  margin-left: 106px;
+}
+
+.favEdit .watchDataForm div div input#Amenities1Fav {
+  margin-left: 11rem;
+}
+
+.favEdit .watchDataForm div div input#CloseTime1Fav {
+  margin-left: 109px;
+}
+
+.kycRead {
+  height: 63vh !important;
+}
+
+.kycRead .watchDataForm {
+  width: 80%;
+}
+
+.kycRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.kycRead .watchDataForm div div input#AadharImagekyc {
+  margin-left: 40px;
+}
+
+.kycRead .watchDataForm div div input#Namekyc {
+  margin-left: 108px;
+}
+
+.kycEdit {
+  height: 71vh !important;
+}
+
+.kycEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.kycEdit .watchDataForm {
+  width: 80%;
+}
+
+.kycEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.kycEdit .watchDataForm div div input#AadharImage1kyc {
+  margin-left: 40px;
+}
+
+.kycEdit .watchDataForm div div input#Name1kyc {
+  margin-left: 108px;
+}
+
+.logRead {
+  height: 73vh !important;
+}
+
+.logRead .watchDataForm {
+  width: 80%;
+}
+
+.logRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.logRead .watchDataForm div div input#Typelog {
+  margin-left: 78px;
+}
+
+.logRead .watchDataForm div div input#Datelog {
+  margin-left: 84px;
+}
+
+.logEdit {
+  height: 73vh !important;
+}
+
+.logEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.logEdit .watchDataForm {
+  width: 80%;
+}
+
+.logEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.logEdit .watchDataForm div div input#Type1log {
+  margin-left: 78px;
+}
+
+.logEdit .watchDataForm div div input#Date1log {
+  margin-left: 84px;
+}
+
+.logEdit .watchDataForm div .Time {
+  margin-right: 123px;
+}
+
+.modelRead {
+  height: 68vh !important;
+}
+
+.modelRead .watchDataForm {
+  width: 80%;
+}
+
+.modelRead .watchDataForm div input {
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.modelRead .watchDataForm div input#Model1model {
+  margin-left: 51px;
+}
+
+.modelRead .watchDataForm div input#Yearmodel {
+  margin-left: 82px;
+}
+
+.modelEdit {
+  height: 68vh !important;
+}
+
+.modelEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.modelEdit .watchDataForm {
+  width: 80%;
+}
+
+.modelEdit .watchDataForm div input {
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.modelEdit .watchDataForm div input#Model1model {
+  margin-left: 51px;
+}
+
+.modelEdit .watchDataForm div input#Year1model {
+  margin-left: 66px;
+}
+
+.oemRead {
+  height: 53vh !important;
+  -webkit-transform: translate(27rem, -500rem);
+          transform: translate(27rem, -500rem);
+}
+
+.oemRead .watchDataForm {
+  width: 80%;
+}
+
+.oemRead .watchDataForm div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.oemRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.oemEdit {
+  height: 53vh !important;
+  -webkit-transform: translate(27rem, -500rem);
+          transform: translate(27rem, -500rem);
+}
+
+.oemEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.oemEdit .watchDataForm {
+  width: 80%;
+}
+
+.oemEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.offerRead {
+  height: 62% !important;
+}
+
+.offerRead .watchDataForm {
+  width: 80%;
+}
+
+.offerRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.offerRead .watchDataForm div div input#Nameoff {
+  margin-left: 127px;
+}
+
+.offerRead .watchDataForm div div input#Expiry {
+  margin-left: 77px;
+}
+
+.offerEdit {
+  height: 62% !important;
+}
+
+.offerEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.offerEdit .watchDataForm {
+  width: 80%;
+}
+
+.offerEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.offerEdit .watchDataForm div div input#Name1off {
+  margin-left: 127px;
+}
+
+.offerEdit .watchDataForm div div input#Expiry1 {
+  margin-left: 77px;
+}
+
+.stationRead {
+  height: 90vh !important;
+}
+
+.stationRead .watchDataForm {
+  width: 80%;
+}
+
+.stationRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.stationRead .watchDataForm div div input#Namestat {
+  margin-left: 106px;
+}
+
+.stationRead .watchDataForm div div input#CloseTimestat {
+  margin-left: 62px;
+}
+
+.stationRead .watchDataForm div div input#Pricestat {
+  margin-left: 114px;
+}
+
+.stationRead .watchDataForm div div input#StationImagestat {
+  margin-left: 38px;
+}
+
+.stationEdit {
+  height: 90vh !important;
+}
+
+.stationEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.stationEdit .watchDataForm {
+  width: 80%;
+}
+
+.stationEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.stationEdit .watchDataForm div div input#Name1stat {
+  margin-left: 106px;
+}
+
+.stationEdit .watchDataForm div div input#CloseTime1stat {
+  margin-left: 62px;
+}
+
+.stationEdit .watchDataForm div div input#Price1stat {
+  margin-left: 114px;
+}
+
+.stationEdit .watchDataForm div div input#StationImage1stat {
+  margin-left: 38px;
+}
+
+.stationEdit .watchDataForm div .OpenTime {
+  margin-right: 123px;
+}
+
+.tranRead {
+  height: 73vh !important;
+}
+
+.tranRead .watchDataForm {
+  width: 80%;
+}
+
+.tranRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.tranRead .watchDataForm div div input#Transactiontrans {
+  margin-left: 29px;
+}
+
+.tranRead .watchDataForm div div input#Timetrans {
+  margin-left: 157px;
+}
+
+.tranRead .watchDataForm div div input#PaymentStatustrans {
+  margin-left: 60px;
+}
+
+.tranRead .watchDataForm div div input#Nametrans {
+  margin-left: 151px;
+}
+
+.tranEdit {
+  height: 73vh !important;
+}
+
+.tranEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.tranEdit .watchDataForm {
+  width: 80%;
+}
+
+.tranEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.tranEdit .watchDataForm div div input#Transaction1trans {
+  margin-left: 29px;
+}
+
+.tranEdit .watchDataForm div div input#Time1trans {
+  margin-left: 157px;
+}
+
+.tranEdit .watchDataForm div div input#PaymentStatus1trans {
+  margin-left: 60px;
+}
+
+.tranEdit .watchDataForm div div input#Name1trans {
+  margin-left: 151px;
+}
+
+.tranEdit .watchDataForm div .Date {
+  margin-right: 36px;
+}
+
+.walletHistoryRead {
+  height: 60vh !important;
+}
+
+.walletHistoryRead .watchDataForm {
+  width: 80%;
+}
+
+.walletHistoryRead .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.walletHistoryRead .watchDataForm div div input#Transactionwallet {
+  margin-left: 18px;
+}
+
+.walletHistoryRead .watchDataForm div div input#Namewallet {
+  margin-left: 141px;
+}
+
+.walletHistoryRead .watchDataForm div div input#Datewallet {
+  margin-left: 149px;
+}
+
+.walletHistoryEdit {
+  height: 60vh !important;
+}
+
+.walletHistoryEdit #error {
+  color: red;
+  font-size: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.walletHistoryEdit .watchDataForm {
+  width: 80%;
+}
+
+.walletHistoryEdit .watchDataForm div div input {
+  margin-left: 7rem;
+}
+
+.walletHistoryEdit .watchDataForm div div input#Transaction1wallet {
+  margin-left: 18px;
+}
+
+.walletHistoryEdit .watchDataForm div div input#Name1wallet {
+  margin-left: 141px;
+}
+
+.walletHistoryEdit .watchDataForm div div input#Date1wallet {
+  margin-left: 149px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #FFFBE4;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-moz-selection {
+  background-color: #FDDA01;
+}
+
+::selection {
+  background-color: #FDDA01;
+}
+
+.active {
+  color: #FDDA01;
+}
+
+.active2 {
+  color: #5F5F5F;
+}
+
+#reicon {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 0.6rem;
+  fill: #5F5F5F;
+  cursor: pointer;
+}
+
+#close {
+  cursor: pointer;
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  fill: #5F5F5F;
+  background-color: #fff;
+  width: 2rem;
+}
+
+#blurDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(8, 8, 8, 0.685);
+  z-index: 12345876;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

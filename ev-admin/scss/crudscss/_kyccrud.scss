@@ -1,0 +1,44 @@
+.kycRead {
+  height: 63vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#AadharImagekyc {
+            margin-left: 40px;
+        }
+        input#Namekyc {
+            margin-left: 108px;
+        }
+      }
+    }
+  }
+}
+.kycEdit {
+  height: 71vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#AadharImage1kyc {
+            margin-left: 40px;
+        }
+        input#Name1kyc {
+            margin-left: 108px;
+        }
+      }
+    }
+  }
+}

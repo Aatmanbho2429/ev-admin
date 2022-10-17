@@ -1,0 +1,59 @@
+.tranRead {
+  height: 73vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Transactiontrans {
+          margin-left: 29px;
+        }
+        input#Timetrans {
+          margin-left: 157px;
+        }
+        input#PaymentStatustrans {
+          margin-left: 60px;
+        }
+        input#Nametrans {
+          margin-left: 151px;
+        }
+      }
+    }
+  }
+}
+.tranEdit {
+  height: 73vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Transaction1trans {
+          margin-left: 29px;
+        }
+        input#Time1trans {
+          margin-left: 157px;
+        }
+        input#PaymentStatus1trans {
+          margin-left: 60px;
+        }
+        input#Name1trans {
+          margin-left: 151px;
+        }
+      }
+      .Date {
+        margin-right: 36px;
+      }
+    }
+  }
+}

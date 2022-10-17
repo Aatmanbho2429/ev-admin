@@ -1,0 +1,56 @@
+.favRead {
+  height: 73vh !important;
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#NameFav {
+          margin-left: 42px;
+        }
+        input#Amenities1Fav {
+          margin-left: 11rem;
+        }
+        input#CloseTime1Fav {
+          margin-left: 109px;
+        }
+        input#NameFav2 {
+          margin-left: 65px;
+      }
+      }
+    }
+  }
+}
+.favEdit {
+  height: 73vh !important;
+  #error {
+    color: red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .watchDataForm {
+    width: 80%;
+    div {
+      div {
+        input {
+          margin-left: 7rem;
+        }
+        input#Name1Fav {
+          margin-left: 86px;
+        }
+        input#uName1Fav {
+          margin-left: 106px;
+        }
+        input#Amenities1Fav {
+          margin-left: 11rem;
+        }
+        input#CloseTime1Fav {
+          margin-left: 109px;
+        }
+      }
+    }
+  }
+}

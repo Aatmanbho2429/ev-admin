@@ -1,0 +1,32 @@
+.permissionBlock {
+  box-shadow: none !important;
+  background-color: #fffbe4 !important;
+  margin-right: 1rem;
+  thead {
+    background-color: rgb(245, 245, 215);
+    th {
+      padding: 2 0.5rem;
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding: 1rem 0.3rem;
+        div {
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          input{
+            margin-left: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+.permissionWrap{
+  position: absolute;
+  left: 0;
+  top: 5rem;
+}
+

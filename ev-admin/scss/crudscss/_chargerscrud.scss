@@ -1,0 +1,172 @@
+.charRead,.chargersRead {
+  position: absolute;
+  z-index: 92345876;
+  width: 80%;
+  height: 73vh;
+  background-color: $pure;
+  transform: translate(13rem, -147rem);
+  transition: $smoothing;
+  .watchDataForm {
+    // border: 2px solid red;
+    width: 70%;
+    div {
+      display: flex;
+      justify-content: space-between;
+      div {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        label {
+          font-size: 1.9rem;
+          text-transform: capitalize;
+          font-weight: bolder;
+        }
+        .ametiLable {
+          font-size: 1.9rem;
+          text-transform: capitalize;
+          font-weight: bolder;
+          width: 54rem;
+        }
+        input {
+          font-size: 1.5rem; 
+          margin-left: 7rem;
+          padding-left: 3rem;
+          border-bottom: 1px solid grey;
+        }
+        input#charNocharger {
+          margin-left: 26px;
+        }
+        input#imageWatch2charger {
+          margin-left: 55px;
+        }
+        input#imageWatch4charger{
+          margin-left: 54px;
+        }
+        textarea {
+          font-size: 1.5rem;
+          padding-left: 3rem;
+        }
+        &::placeholder {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    #okBtn {
+      background-color: $primary;
+      border: none;
+      font-size: 1.7rem;
+      margin-top: 10rem;
+      width: 13rem;
+      height: 4.3rem;
+      padding-left: 5rem;
+      border-radius: 3rem;
+      text-align: center;
+      padding-top: 7px;
+      margin-left: 31rem !important;
+      cursor: pointer;
+      font-size: 2rem;
+      margin-top: 10rem;
+      padding-left: 5.2rem !important;
+      padding-top: 6px !important;
+      text-transform: uppercase !important;
+      margin-left: 35rem !important;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+.charEdit,.chargersEdit {
+  height: 86vh !important;
+  position: absolute;
+  z-index: 92345876;
+  width: 80%;
+  background-color: $pure;
+  transform: translate(13rem, -147rem);
+  transition: $smoothing;
+  position: absolute;
+  z-index: 92345876;
+  width: 80%;
+  height: 90vh;
+  background-color: $pure;
+  transform: translate(13rem, -147rem);
+  transition: $smoothing;
+  #error{
+    color:red;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 1rem auto ;
+  }
+  .watchDataForm {
+    width: 70%;
+    div {
+      display: flex;
+      justify-content: space-between;
+      div {
+        margin-top: 2rem;
+        label {
+          font-size: 1.9rem;
+          text-transform: capitalize;
+          font-weight: bolder;
+        }
+
+        .ametiLable {
+          font-size: 1.9rem;
+          text-transform: capitalize;
+          font-weight: bolder;
+          width: 54rem;
+        }
+        input {
+          font-size: 1.5rem;
+          margin-left: 7rem;
+          padding-left: 3rem;
+          border-bottom: 1px solid gray;
+        }
+        input#charNo1charger {
+          margin-left: 26px;
+        }
+        input#imageWatch21charger {
+          margin-left: 55px;
+        }
+        input#imageWatch41charger {
+          margin-left: 54px;
+        }
+        input#imageWatch1charger {
+          margin-left: 55px;
+      }
+        textarea {
+          font-size: 1.5rem;
+          padding-left: 3rem;
+        }
+        &::placeholder {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    #submit {
+      background-color: $primary;
+      border: none;
+      font-size: 1.7rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      margin-top: 10rem;
+      width: 13rem;
+      height: 4rem;
+      border-radius: 3rem;
+      text-align: center;
+      margin-left: 31rem !important;
+      cursor: pointer;
+      font-size: 2rem;
+      margin-top: 10rem;
+      text-transform: uppercase !important;
+      margin-left: 35rem !important;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}
